@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/eliodemollari/zeebe_benchmarking/issues"
   },
-  "homepage": "https://github.com/eliodemollari/zeebe_benchmarking#readme"
+  "homepage": "https://github.com/eliodemollari/zeebe_benchmarking#readme",
+  "dependencies": {
+    "zeebe-node": "^8.1.2"
+  }
 }
