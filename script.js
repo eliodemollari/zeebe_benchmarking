@@ -12,7 +12,7 @@ void (async () => {
     const zbc = new ZB.ZBClient() // localhost:26500 || ZEEBE_GATEWAY_ADDRESS
 
     // Deploy a bpmn process
-    const deploy_process = await zbc.deployProcess('../bug_reported.bpmn')
+    const deploy_process = await zbc.deployProcess('./processes/bug_reported.bpmn')
     console.log(deploy_process)
 
     // Starting nine instances of that process
