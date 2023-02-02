@@ -3,10 +3,16 @@ global:
   evaluation_interval: 5s
 
 scrape_configs:
+  - job_name: 'prometheus'
+    scrape_interval: 5s
+    metrics_path: /actuator/prometheus
+    static_configs:
+      - targets: [ 'host.docker.internal:8088' ]
+
   - job_name: zeebe
     scrape_interval: 15s
     metrics_path: /metrics
     scheme: http
     static_configs:
       - targets:
-        - 'docker.for.mac.localhost:9600'
+        - 'host.docker.internal:9600'
