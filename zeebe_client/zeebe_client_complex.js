@@ -12,7 +12,7 @@ void (async () => {
     const zbc = new ZB.ZBClient() // localhost:26500 || ZEEBE_GATEWAY_ADDRESS
 
     // Deploy a bpmn process
-    const deploy_process = await zbc.deployProcess('./processes/online_ticket_purchase.bpmn')
+    const deploy_process = await zbc.deployProcess('../processes/online_ticket_purchase.bpmn')
     console.log(deploy_process)
 
     // Starting nine instances of online_ticket_purchase.bpmn
