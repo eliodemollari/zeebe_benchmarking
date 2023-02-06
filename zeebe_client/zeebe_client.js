@@ -1,5 +1,4 @@
 const ZB = require('zeebe-node')
-
 // Broker
 void (async () => {
     const zbc = new ZB.ZBClient('localhost:26500')
