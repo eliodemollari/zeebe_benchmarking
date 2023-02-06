@@ -246,113 +246,6 @@
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">=var2=false</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="Flow_1bdeta0" sourceRef="Activity_0il6kzw" targetRef="Event_13b5uoh" />
-    <bpmn:userTask id="Activity_03tgmob" name="To show dance">
-      <bpmn:incoming>Flow_0gqm5oq</bpmn:incoming>
-      <bpmn:outgoing>Flow_0zi0p37</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1whki6c" name="To show musical">
-      <bpmn:incoming>Flow_0j91d00</bpmn:incoming>
-      <bpmn:outgoing>Flow_1a098v0</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:manualTask id="Activity_1vvrtgh" name="To show childish">
-      <bpmn:incoming>Flow_0nrgkq1</bpmn:incoming>
-      <bpmn:outgoing>Flow_0oqlx8e</bpmn:outgoing>
-    </bpmn:manualTask>
-    <bpmn:userTask id="Activity_065cagw" name="To show comedy">
-      <bpmn:incoming>Flow_1nx9ngv</bpmn:incoming>
-      <bpmn:outgoing>Flow_053l61x</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_11i6435" name="To show drama">
-      <bpmn:incoming>Flow_10qkr78</bpmn:incoming>
-      <bpmn:outgoing>Flow_0fas0v2</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1dkenit" name="To select provice">
-      <bpmn:incoming>Flow_1nhuvaz</bpmn:incoming>
-      <bpmn:outgoing>Flow_0wk0hfi</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1r2ntsq" name="To select park">
-      <bpmn:incoming>Flow_0xei0wc</bpmn:incoming>
-      <bpmn:outgoing>Flow_11qd3lu</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_17oidsi" name="To select date-part">
-      <bpmn:incoming>Flow_060wthm</bpmn:incoming>
-      <bpmn:outgoing>Flow_00nkud6</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_0dce76m" name="To select number of ticket-park">
-      <bpmn:incoming>Flow_00nkud6</bpmn:incoming>
-      <bpmn:outgoing>Flow_0j2jgsf</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1986whl" name="To see musical">
-      <bpmn:incoming>Flow_0cknfgt</bpmn:incoming>
-      <bpmn:outgoing>Flow_0brkzcc</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_10wxamz" name="To see dance">
-      <bpmn:incoming>Flow_0rbrp2h</bpmn:incoming>
-      <bpmn:outgoing>Flow_18ewkrv</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1i7bmoa" name="To see childish">
-      <bpmn:incoming>Flow_0xwualk</bpmn:incoming>
-      <bpmn:outgoing>Flow_138kirx</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_01f0inw" name="To see comedy">
-      <bpmn:incoming>Flow_0emtsrw</bpmn:incoming>
-      <bpmn:outgoing>Flow_0xjhhz8</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1q9z1ka" name="To see drama">
-      <bpmn:incoming>Flow_1yzsclt</bpmn:incoming>
-      <bpmn:outgoing>Flow_0kb2qyu</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_02834en" name="To show offer 1">
-      <bpmn:incoming>Flow_0trv42j</bpmn:incoming>
-      <bpmn:outgoing>Flow_0nrll8x</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_0ckmkei" name="To show offer 2">
-      <bpmn:incoming>Flow_1cjwtpi</bpmn:incoming>
-      <bpmn:outgoing>Flow_1jat8ed</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1ysshet" name="To show offer 3">
-      <bpmn:incoming>Flow_0ezvzwq</bpmn:incoming>
-      <bpmn:outgoing>Flow_0aul2qk</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1vnzkm1" name="To show offer 4">
-      <bpmn:incoming>Flow_1jxdmi8</bpmn:incoming>
-      <bpmn:outgoing>Flow_0bvnv85</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1ob31uf" name="To see offer 1">
-      <bpmn:incoming>Flow_1936woe</bpmn:incoming>
-      <bpmn:outgoing>Flow_0p715cq</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1m4pnaz" name="To see offer 3">
-      <bpmn:incoming>Flow_0wuw14t</bpmn:incoming>
-      <bpmn:outgoing>Flow_1txotyn</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1it4zo8" name="To see offer 2">
-      <bpmn:incoming>Flow_06oyfng</bpmn:incoming>
-      <bpmn:outgoing>Flow_0krz56i</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1dzjkrv" name="To see offer 4">
-      <bpmn:incoming>Flow_1dc8qom</bpmn:incoming>
-      <bpmn:outgoing>Flow_1e70w5u</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_10x9i0p" name="To select offer">
-      <bpmn:incoming>Flow_0krz56i</bpmn:incoming>
-      <bpmn:incoming>Flow_1txotyn</bpmn:incoming>
-      <bpmn:incoming>Flow_1e70w5u</bpmn:incoming>
-      <bpmn:incoming>Flow_0p715cq</bpmn:incoming>
-      <bpmn:outgoing>Flow_14e770c</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1rjolwx" name="To select number of tickets-offer">
-      <bpmn:incoming>Flow_1gr7fdr</bpmn:incoming>
-      <bpmn:outgoing>Flow_1m8phe6</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1jgd2xd" name="To select date-offer">
-      <bpmn:incoming>Flow_14e770c</bpmn:incoming>
-      <bpmn:outgoing>Flow_1gr7fdr</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_0il6kzw" name="To print payment voucher">
-      <bpmn:incoming>Flow_0ygq8g4</bpmn:incoming>
-      <bpmn:outgoing>Flow_1bdeta0</bpmn:outgoing>
-    </bpmn:userTask>
     <bpmn:exclusiveGateway id="Gateway_08je71t">
       <bpmn:incoming>Flow_0qq5oia</bpmn:incoming>
       <bpmn:outgoing>Flow_1nhuvaz</bpmn:outgoing>
@@ -504,6 +397,113 @@
       <bpmn:incoming>flow_web</bpmn:incoming>
       <bpmn:outgoing>Flow_187fcjy</bpmn:outgoing>
     </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1vvrtgh" name="To show childish">
+      <bpmn:incoming>Flow_0nrgkq1</bpmn:incoming>
+      <bpmn:outgoing>Flow_0oqlx8e</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_065cagw" name="To show comedy">
+      <bpmn:incoming>Flow_1nx9ngv</bpmn:incoming>
+      <bpmn:outgoing>Flow_053l61x</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_11i6435" name="To show drama">
+      <bpmn:incoming>Flow_10qkr78</bpmn:incoming>
+      <bpmn:outgoing>Flow_0fas0v2</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_03tgmob" name="To show dance">
+      <bpmn:incoming>Flow_0gqm5oq</bpmn:incoming>
+      <bpmn:outgoing>Flow_0zi0p37</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1whki6c" name="To show musical">
+      <bpmn:incoming>Flow_0j91d00</bpmn:incoming>
+      <bpmn:outgoing>Flow_1a098v0</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1dkenit" name="To select provice">
+      <bpmn:incoming>Flow_1nhuvaz</bpmn:incoming>
+      <bpmn:outgoing>Flow_0wk0hfi</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1r2ntsq" name="To select park">
+      <bpmn:incoming>Flow_0xei0wc</bpmn:incoming>
+      <bpmn:outgoing>Flow_11qd3lu</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_02834en" name="To show offer 1">
+      <bpmn:incoming>Flow_0trv42j</bpmn:incoming>
+      <bpmn:outgoing>Flow_0nrll8x</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_0ckmkei" name="To show offer 2">
+      <bpmn:incoming>Flow_1cjwtpi</bpmn:incoming>
+      <bpmn:outgoing>Flow_1jat8ed</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1ysshet" name="To show offer 3">
+      <bpmn:incoming>Flow_0ezvzwq</bpmn:incoming>
+      <bpmn:outgoing>Flow_0aul2qk</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1vnzkm1" name="To show offer 4">
+      <bpmn:incoming>Flow_1jxdmi8</bpmn:incoming>
+      <bpmn:outgoing>Flow_0bvnv85</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1dzjkrv" name="To see offer 4">
+      <bpmn:incoming>Flow_1dc8qom</bpmn:incoming>
+      <bpmn:outgoing>Flow_1e70w5u</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1m4pnaz" name="To see offer 3">
+      <bpmn:incoming>Flow_0wuw14t</bpmn:incoming>
+      <bpmn:outgoing>Flow_1txotyn</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1it4zo8" name="To see offer 2">
+      <bpmn:incoming>Flow_06oyfng</bpmn:incoming>
+      <bpmn:outgoing>Flow_0krz56i</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1ob31uf" name="To see offer 1">
+      <bpmn:incoming>Flow_1936woe</bpmn:incoming>
+      <bpmn:outgoing>Flow_0p715cq</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_10x9i0p" name="To select offer">
+      <bpmn:incoming>Flow_0krz56i</bpmn:incoming>
+      <bpmn:incoming>Flow_1txotyn</bpmn:incoming>
+      <bpmn:incoming>Flow_1e70w5u</bpmn:incoming>
+      <bpmn:incoming>Flow_0p715cq</bpmn:incoming>
+      <bpmn:outgoing>Flow_14e770c</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_17oidsi" name="To select date-part">
+      <bpmn:incoming>Flow_060wthm</bpmn:incoming>
+      <bpmn:outgoing>Flow_00nkud6</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_0dce76m" name="To select number of ticket-park">
+      <bpmn:incoming>Flow_00nkud6</bpmn:incoming>
+      <bpmn:outgoing>Flow_0j2jgsf</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1jgd2xd" name="To select date-offer">
+      <bpmn:incoming>Flow_14e770c</bpmn:incoming>
+      <bpmn:outgoing>Flow_1gr7fdr</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1rjolwx" name="To select number of tickets-offer">
+      <bpmn:incoming>Flow_1gr7fdr</bpmn:incoming>
+      <bpmn:outgoing>Flow_1m8phe6</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1q9z1ka" name="To see drama">
+      <bpmn:incoming>Flow_1yzsclt</bpmn:incoming>
+      <bpmn:outgoing>Flow_0kb2qyu</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_01f0inw" name="To see comedy">
+      <bpmn:incoming>Flow_0emtsrw</bpmn:incoming>
+      <bpmn:outgoing>Flow_0xjhhz8</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1i7bmoa" name="To see childish">
+      <bpmn:incoming>Flow_0xwualk</bpmn:incoming>
+      <bpmn:outgoing>Flow_138kirx</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_10wxamz" name="To see dance">
+      <bpmn:incoming>Flow_0rbrp2h</bpmn:incoming>
+      <bpmn:outgoing>Flow_18ewkrv</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1986whl" name="To see musical">
+      <bpmn:incoming>Flow_0cknfgt</bpmn:incoming>
+      <bpmn:outgoing>Flow_0brkzcc</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_0il6kzw" name="To print payment voucher">
+      <bpmn:incoming>Flow_0ygq8g4</bpmn:incoming>
+      <bpmn:outgoing>Flow_1bdeta0</bpmn:outgoing>
+    </bpmn:serviceTask>
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_0af2phw">
@@ -525,63 +525,6 @@
         <bpmndi:BPMNLabel>
           <dc:Bounds x="555" y="486.5" width="64" height="27" />
         </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1n1fiyb_di" bpmnElement="activity_access_website">
-        <dc:Bounds x="370" y="460" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1nzbuad_di" bpmnElement="show_theatre">
-        <dc:Bounds x="640" y="290" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_04c52jh_di" bpmnElement="show_cinema">
-        <dc:Bounds x="640" y="580" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1tg016m_di" bpmnElement="show_parks">
-        <dc:Bounds x="640" y="870" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0iabqzf_di" bpmnElement="show_offer">
-        <dc:Bounds x="640" y="1220" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1plcgqi_di" bpmnElement="activity_select_cinema">
-        <dc:Bounds x="790" y="580" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0m1e3yh_di" bpmnElement="activity_select_movie">
-        <dc:Bounds x="930" y="580" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0v2a2dp_di" bpmnElement="Activity_select_play">
-        <dc:Bounds x="1390" y="290" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_03pf1a2_di" bpmnElement="Activity_select_date_play">
-        <dc:Bounds x="1540" y="290" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_01y29ed_di" bpmnElement="Activity_select_num_tickets_play">
-        <dc:Bounds x="1690" y="290" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0jdh1s3_di" bpmnElement="Activity_select_petition">
-        <dc:Bounds x="2220" y="470" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1spacn6_di" bpmnElement="Activity_introduce_bank_data">
-        <dc:Bounds x="2360" y="470" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_06xbk51_di" bpmnElement="Activity_accept_purchase">
-        <dc:Bounds x="2500" y="470" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1i24an0_di" bpmnElement="Activity_cancel">
-        <dc:Bounds x="2220" y="690" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1uiy7tb_di" bpmnElement="Activity_verify_purchase_data">
-        <dc:Bounds x="1760" y="580" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_08adq20_di" bpmnElement="Activity_select_seat">
-        <dc:Bounds x="1600" y="580" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_07qwcrz_di" bpmnElement="Activity_select_schedule">
-        <dc:Bounds x="1440" y="580" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0bfrtum_di" bpmnElement="Activity_select_record">
-        <dc:Bounds x="1180" y="580" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_07bv8ul_di" bpmnElement="Activity_look_for_ticket">
-        <dc:Bounds x="370" y="660" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_18galzi_di" bpmnElement="Gateway_18galzi" isMarkerVisible="true">
         <dc:Bounds x="835" y="305" width="50" height="50" />
@@ -640,89 +583,146 @@
           <dc:Bounds x="2705" y="496" width="70" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1xd6x4g_di" bpmnElement="Activity_03tgmob">
-        <dc:Bounds x="920" y="210" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1cswb8r_di" bpmnElement="Activity_1whki6c">
-        <dc:Bounds x="920" y="130" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0y21hg4_di" bpmnElement="Activity_1vvrtgh">
-        <dc:Bounds x="920" y="290" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_129dnhe_di" bpmnElement="Activity_065cagw">
-        <dc:Bounds x="920" y="370" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1dw7y8n_di" bpmnElement="Activity_11i6435">
-        <dc:Bounds x="920" y="450" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1ahjy0x_di" bpmnElement="Activity_1dkenit">
-        <dc:Bounds x="910" y="810" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0bmz5po_di" bpmnElement="Activity_1r2ntsq">
-        <dc:Bounds x="910" y="930" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0nl4z46_di" bpmnElement="Activity_17oidsi">
-        <dc:Bounds x="1110" y="870" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0h4ypqn_di" bpmnElement="Activity_0dce76m">
-        <dc:Bounds x="1240" y="870" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_097jxj3_di" bpmnElement="Activity_1986whl">
-        <dc:Bounds x="1240" y="130" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_17m9xx7_di" bpmnElement="Activity_10wxamz">
-        <dc:Bounds x="1240" y="210" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1xcvw6n_di" bpmnElement="Activity_1i7bmoa">
-        <dc:Bounds x="1240" y="290" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1oy9tn8_di" bpmnElement="Activity_01f0inw">
-        <dc:Bounds x="1240" y="370" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1az5n2u_di" bpmnElement="Activity_1q9z1ka">
-        <dc:Bounds x="1240" y="450" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1ynvd8y_di" bpmnElement="Activity_02834en">
-        <dc:Bounds x="870" y="1100" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1bg2zx3_di" bpmnElement="Activity_0ckmkei">
-        <dc:Bounds x="870" y="1180" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0c7x5hh_di" bpmnElement="Activity_1ysshet">
-        <dc:Bounds x="870" y="1260" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1cj25gf_di" bpmnElement="Activity_1vnzkm1">
-        <dc:Bounds x="870" y="1340" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0o50ent_di" bpmnElement="Activity_1ob31uf">
-        <dc:Bounds x="1190" y="1100" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0oib568_di" bpmnElement="Activity_1m4pnaz">
-        <dc:Bounds x="1190" y="1260" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0sclkie_di" bpmnElement="Activity_1it4zo8">
-        <dc:Bounds x="1190" y="1180" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1husvht_di" bpmnElement="Activity_1dzjkrv">
-        <dc:Bounds x="1190" y="1340" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1dr7xjg_di" bpmnElement="Activity_10x9i0p">
-        <dc:Bounds x="1340" y="1210" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1x5letj_di" bpmnElement="Activity_1rjolwx">
-        <dc:Bounds x="1640" y="1210" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1gx7jxh_di" bpmnElement="Activity_1jgd2xd">
-        <dc:Bounds x="1490" y="1210" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0whvt3x_di" bpmnElement="Activity_0il6kzw">
-        <dc:Bounds x="2620" y="590" width="100" height="80" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_15ojdyd_di" bpmnElement="Gateway_08je71t" isMarkerVisible="true">
         <dc:Bounds x="835" y="885" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_0ko0t6j_di" bpmnElement="Gateway_10mi0sv" isMarkerVisible="true">
         <dc:Bounds x="1035" y="885" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1n1fiyb_di" bpmnElement="activity_access_website">
+        <dc:Bounds x="370" y="460" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1nzbuad_di" bpmnElement="show_theatre">
+        <dc:Bounds x="640" y="290" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_04c52jh_di" bpmnElement="show_cinema">
+        <dc:Bounds x="640" y="580" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1tg016m_di" bpmnElement="show_parks">
+        <dc:Bounds x="640" y="870" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0iabqzf_di" bpmnElement="show_offer">
+        <dc:Bounds x="640" y="1220" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1plcgqi_di" bpmnElement="activity_select_cinema">
+        <dc:Bounds x="790" y="580" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0m1e3yh_di" bpmnElement="activity_select_movie">
+        <dc:Bounds x="930" y="580" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0v2a2dp_di" bpmnElement="Activity_select_play">
+        <dc:Bounds x="1390" y="290" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_03pf1a2_di" bpmnElement="Activity_select_date_play">
+        <dc:Bounds x="1540" y="290" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_01y29ed_di" bpmnElement="Activity_select_num_tickets_play">
+        <dc:Bounds x="1690" y="290" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0jdh1s3_di" bpmnElement="Activity_select_petition">
+        <dc:Bounds x="2220" y="470" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1spacn6_di" bpmnElement="Activity_introduce_bank_data">
+        <dc:Bounds x="2360" y="470" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_06xbk51_di" bpmnElement="Activity_accept_purchase">
+        <dc:Bounds x="2500" y="470" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1i24an0_di" bpmnElement="Activity_cancel">
+        <dc:Bounds x="2220" y="690" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1uiy7tb_di" bpmnElement="Activity_verify_purchase_data">
+        <dc:Bounds x="1760" y="580" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_08adq20_di" bpmnElement="Activity_select_seat">
+        <dc:Bounds x="1600" y="580" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_07qwcrz_di" bpmnElement="Activity_select_schedule">
+        <dc:Bounds x="1440" y="580" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0bfrtum_di" bpmnElement="Activity_select_record">
+        <dc:Bounds x="1180" y="580" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_07bv8ul_di" bpmnElement="Activity_look_for_ticket">
+        <dc:Bounds x="370" y="660" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0f8m5tt_di" bpmnElement="Activity_1vvrtgh">
+        <dc:Bounds x="920" y="290" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0bjqt0w_di" bpmnElement="Activity_065cagw">
+        <dc:Bounds x="920" y="370" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_17fmysd_di" bpmnElement="Activity_11i6435">
+        <dc:Bounds x="920" y="450" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1948vlh_di" bpmnElement="Activity_03tgmob">
+        <dc:Bounds x="920" y="210" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0z8erd3_di" bpmnElement="Activity_1whki6c">
+        <dc:Bounds x="920" y="130" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1asaqwl_di" bpmnElement="Activity_1dkenit">
+        <dc:Bounds x="910" y="810" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1sf8pry_di" bpmnElement="Activity_1r2ntsq">
+        <dc:Bounds x="910" y="930" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_15bgqy9_di" bpmnElement="Activity_02834en">
+        <dc:Bounds x="870" y="1100" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0yzql4x_di" bpmnElement="Activity_0ckmkei">
+        <dc:Bounds x="870" y="1180" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0bdyyn5_di" bpmnElement="Activity_1ysshet">
+        <dc:Bounds x="870" y="1260" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0tndq6o_di" bpmnElement="Activity_1vnzkm1">
+        <dc:Bounds x="870" y="1340" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0jg5l8m_di" bpmnElement="Activity_1dzjkrv">
+        <dc:Bounds x="1190" y="1340" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1kpjkwl_di" bpmnElement="Activity_1m4pnaz">
+        <dc:Bounds x="1190" y="1260" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0z5evi0_di" bpmnElement="Activity_1it4zo8">
+        <dc:Bounds x="1190" y="1180" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0oqdpjx_di" bpmnElement="Activity_1ob31uf">
+        <dc:Bounds x="1190" y="1100" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1ei740f_di" bpmnElement="Activity_10x9i0p">
+        <dc:Bounds x="1340" y="1210" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0urczsj_di" bpmnElement="Activity_17oidsi">
+        <dc:Bounds x="1110" y="870" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1c8dt9l_di" bpmnElement="Activity_0dce76m">
+        <dc:Bounds x="1240" y="870" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_17tw3hw_di" bpmnElement="Activity_1jgd2xd">
+        <dc:Bounds x="1490" y="1210" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0cc7t7m_di" bpmnElement="Activity_1rjolwx">
+        <dc:Bounds x="1640" y="1210" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0ke2wem_di" bpmnElement="Activity_1q9z1ka">
+        <dc:Bounds x="1240" y="450" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1illrvn_di" bpmnElement="Activity_01f0inw">
+        <dc:Bounds x="1240" y="370" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_019psdx_di" bpmnElement="Activity_1i7bmoa">
+        <dc:Bounds x="1240" y="290" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1eygrte_di" bpmnElement="Activity_10wxamz">
+        <dc:Bounds x="1240" y="210" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1omr5w7_di" bpmnElement="Activity_1986whl">
+        <dc:Bounds x="1240" y="130" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1aqbadr_di" bpmnElement="Activity_0il6kzw">
+        <dc:Bounds x="2620" y="590" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_0u4g0m0_di" bpmnElement="Flow_0u4g0m0">
         <di:waypoint x="238" y="600" />
