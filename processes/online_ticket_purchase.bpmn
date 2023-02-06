@@ -398,66 +398,114 @@
       <bpmn:outgoing>Flow_187fcjy</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1vvrtgh" name="To show childish">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="show_childish" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_0nrgkq1</bpmn:incoming>
       <bpmn:outgoing>Flow_0oqlx8e</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_065cagw" name="To show comedy">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="show_comedy" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_1nx9ngv</bpmn:incoming>
       <bpmn:outgoing>Flow_053l61x</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_11i6435" name="To show drama">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="show_drama" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_10qkr78</bpmn:incoming>
       <bpmn:outgoing>Flow_0fas0v2</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_03tgmob" name="To show dance">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="show_dance" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_0gqm5oq</bpmn:incoming>
       <bpmn:outgoing>Flow_0zi0p37</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1whki6c" name="To show musical">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="show_musical" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_0j91d00</bpmn:incoming>
       <bpmn:outgoing>Flow_1a098v0</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1dkenit" name="To select provice">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="sel_provice" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_1nhuvaz</bpmn:incoming>
       <bpmn:outgoing>Flow_0wk0hfi</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1r2ntsq" name="To select park">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="sel_park" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_0xei0wc</bpmn:incoming>
       <bpmn:outgoing>Flow_11qd3lu</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_02834en" name="To show offer 1">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="show_offer" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_0trv42j</bpmn:incoming>
       <bpmn:outgoing>Flow_0nrll8x</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_0ckmkei" name="To show offer 2">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="show_offer" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_1cjwtpi</bpmn:incoming>
       <bpmn:outgoing>Flow_1jat8ed</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1ysshet" name="To show offer 3">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="show_offer" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_0ezvzwq</bpmn:incoming>
       <bpmn:outgoing>Flow_0aul2qk</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1vnzkm1" name="To show offer 4">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="show_offer" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_1jxdmi8</bpmn:incoming>
       <bpmn:outgoing>Flow_0bvnv85</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1dzjkrv" name="To see offer 4">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="show_offer" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_1dc8qom</bpmn:incoming>
       <bpmn:outgoing>Flow_1e70w5u</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1m4pnaz" name="To see offer 3">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="show_offer" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_0wuw14t</bpmn:incoming>
       <bpmn:outgoing>Flow_1txotyn</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1it4zo8" name="To see offer 2">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="show_offer" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_06oyfng</bpmn:incoming>
       <bpmn:outgoing>Flow_0krz56i</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1ob31uf" name="To see offer 1">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="show_offer" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_1936woe</bpmn:incoming>
       <bpmn:outgoing>Flow_0p715cq</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_10x9i0p" name="To select offer">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="select_offer" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_0krz56i</bpmn:incoming>
       <bpmn:incoming>Flow_1txotyn</bpmn:incoming>
       <bpmn:incoming>Flow_1e70w5u</bpmn:incoming>
@@ -465,42 +513,72 @@
       <bpmn:outgoing>Flow_14e770c</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_17oidsi" name="To select date-part">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="date_part" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_060wthm</bpmn:incoming>
       <bpmn:outgoing>Flow_00nkud6</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_0dce76m" name="To select number of ticket-park">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="num_ticket" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_00nkud6</bpmn:incoming>
       <bpmn:outgoing>Flow_0j2jgsf</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1jgd2xd" name="To select date-offer">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="data_offer" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_14e770c</bpmn:incoming>
       <bpmn:outgoing>Flow_1gr7fdr</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1rjolwx" name="To select number of tickets-offer">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="ticket_offer" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_1gr7fdr</bpmn:incoming>
       <bpmn:outgoing>Flow_1m8phe6</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1q9z1ka" name="To see drama">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="see_drama" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_1yzsclt</bpmn:incoming>
       <bpmn:outgoing>Flow_0kb2qyu</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_01f0inw" name="To see comedy">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="see_comedy" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_0emtsrw</bpmn:incoming>
       <bpmn:outgoing>Flow_0xjhhz8</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1i7bmoa" name="To see childish">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="see_childish" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_0xwualk</bpmn:incoming>
       <bpmn:outgoing>Flow_138kirx</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_10wxamz" name="To see dance">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="see_dance" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_0rbrp2h</bpmn:incoming>
       <bpmn:outgoing>Flow_18ewkrv</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_1986whl" name="To see musical">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="see_musical" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_0cknfgt</bpmn:incoming>
       <bpmn:outgoing>Flow_0brkzcc</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:serviceTask id="Activity_0il6kzw" name="To print payment voucher">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="payment_voucher" />
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_0ygq8g4</bpmn:incoming>
       <bpmn:outgoing>Flow_1bdeta0</bpmn:outgoing>
     </bpmn:serviceTask>
