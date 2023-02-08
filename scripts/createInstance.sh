@@ -3,6 +3,7 @@ instanceName="zeebe-instance"
 gcloud compute instances create $instanceName \
     --image=ubuntu-minimal-2210-kinetic-arm64-v20230126 \
     --image-project=ubuntu-os-cloud \
+    --tags=default-allow-http,default-allow-https,https-server,http-server \
     --zone europe-west4-a
 
 

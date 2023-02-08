@@ -28,8 +28,7 @@ void (async () => {
             }
             else {
                 // Get the file contents after the append operation
-                console.log("\nFile Contents of file after append:",
-                    fs.readFileSync("result.txt", "utf8"));
+                console.log(start_instance);
             }
         });
     }
