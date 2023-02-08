@@ -1,4 +1,5 @@
 const ZB = require('zeebe-node')
+const fs = require("fs");
 
 // Broker
 void (async () => {
@@ -21,6 +22,15 @@ void (async () => {
         const start_instance = await zbc.createProcessInstance('Process_1mqc2bt', {
             testData: 'something',
         })
-        console.log(start_instance)
+        fs.appendFile("result.txt", JSON.stringify(start_instance), (err) => {
+            if (err) {
+                console.log(err);
+            }
+            else {
+                // Get the file contents after the append operation
+                console.log("\nFile Contents of file after append:",
+                    fs.readFileSync("result.txt", "utf8"));
+            }
+        });
     }
 })()
