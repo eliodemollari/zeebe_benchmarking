@@ -77,7 +77,12 @@ If Prometheus is not able to scrape the Zeebe cluster endpoint check here: http:
 Change 'host.docker.internal:9600' to 'VM_EXTERNAL_IP_ADDRESS:9600'
 ```
 
-### Within the project you can see the following folders:
+After starting the Zeebe Client, to visualise the results visit: 
+```
+http://VM_EXTERNAL_IP_ADDRESS:9090/graph?g0.expr=zeebe_gateway_total_requests_total&g0.tab=0&g0.stacked=1&g0.show_exemplars=0&g0.range_input=30m&g1.expr=zeebe_executed_instances_total&g1.tab=0&g1.stacked=1&g1.show_exemplars=0&g1.range_input=30m
+```
+
+### The structure of the project:
 - Monitoring
 - Processes
 - Scripts
@@ -106,6 +111,7 @@ Here we can find the scripts necessary to:
 - Start Zeebe Client
 - Start Zeebe Cluster and Prometheus
 - Delete the instance
+- Get results
 
 
 #### Zeebe_client
