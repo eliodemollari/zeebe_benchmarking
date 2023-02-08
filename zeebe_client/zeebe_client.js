@@ -1,4 +1,5 @@
 const ZB = require('zeebe-node')
+const fs = require('fs');
 // Broker
 void (async () => {
     const zbc = new ZB.ZBClient('localhost:26500')
@@ -12,6 +13,7 @@ void (async () => {
 
     // Deploy a bpmn process
     const deploy_process = await zbc.deployProcess( '../processes/bug_reported.bpmn')
+
     console.log(deploy_process)
 
     // Starting nine instances of bug_reported.bpmn
@@ -20,6 +22,15 @@ void (async () => {
         const start_instance = await zbc.createProcessInstance('Process_1hzmijf', {
             testData: 'something',
         })
-        console.log(start_instance)
+        fs.appendFile("result.txt", JSON.stringify(start_instance), (err) => {
+            if (err) {
+                console.log(err);
+            }
+            else {
+                // Get the file contents after the append operation
+                console.log("\nFile Contents of file after append:",
+                    fs.readFileSync("result.txt", "utf8"));
+            }
+        });
     }
 })()
