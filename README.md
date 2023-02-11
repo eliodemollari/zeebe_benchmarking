@@ -22,15 +22,18 @@ Clone the project:
 git clone https://github.com/eliodemollari/zeebe_benchmarking.git
 ```
 
-Create a VM instance on Google Cloud Platform: 
+Create the following three VM instance on Google Cloud Platform: 
 ```
-/scripts/createInstance.sh
+/scripts/createPrometheusInstance.sh
+/scripts/createZeebeClientInstance.sh
+/scripts/createZeebeClusterInstance.sh
 ```
-The following command will create a VM instance and install ```nodejs```, ```npm```, ```docker```. Needed to run the Zeebe_client and start Zeebe_cluster and Prometheus (both running on docker containers).
+The following commands will create three VM instances and install ```nodejs```, ```npm```, ```docker```.
 
-Start both Zeebe_cluster (SUT) and Prometheus by running: 
+Start first Zeebe_cluster (SUT) and Prometheus by running: 
 ```
-/scripts/startZeebeCluster_one.sh
+/scripts/startZeebeCluster.sh
+/scripts/startPrometheus.sh
 ```
 The script with start a Zeebe_cluster docker container with the following configuration:
 
@@ -44,30 +47,16 @@ To summarize:
 To scale throughput, you can increase the number of Partitions to distribute processing over machines in a cluster
 For fault tolerance, you can configure the ReplicationFactor; replications function as “hot standby” of your Partitions that are stored on different brokers, making it possible to quickly resume processing after a failure. 
 
-For the second configuration you could run the following command:
-```
-/scripts/startZeebeCluster_one.sh
-```
-
-Which start a Zeebe Cluster with the following configuration:
-```
-No. Brokers: 3
-Partition: 3
-ReplicationFactor: 3
-```
 
 After having both Zeebe Cluster and Prometheus running, the last step is to start the Zeebe Client and generate load (by deploying one of the two processes into the Cluster). 
+Before starting the client, we need to add the ```http://VM_EXTERNAL_IP_ADDRESS:26500``` to connect the client to the cluster. Since now we are running each container on a separate VM instance. 
 
 Run:
 ```
-/scripts/startZeebeClient_simple.sh
+/scripts/startZeebeClient.sh
 ```
 to deploy the simple BPMN process
 
-Or choose to deploy the complex BPMN process by running:
-```
-/scripts/startZeebeClient_complex.sh
-```
 
 After the client is running, we can get a visualisation of the instances that are being created and executed by visiting ```http://VM_EXTERNAL_IP_ADDRESS:9090```
 
