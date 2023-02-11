@@ -1,4 +1,4 @@
-instanceName="zeebe-instance"
+instanceName="zeebe-cluster-instance"
 
 gcloud compute instances create $instanceName \
     --image=ubuntu-minimal-2210-kinetic-arm64-v20230126 \
@@ -6,10 +6,6 @@ gcloud compute instances create $instanceName \
     --tags=default-allow-http,default-allow-https,https-server,http-server \
     --zone europe-west4-a
 
-
-# install nodes
-gcloud compute ssh $instanceName --zone europe-west4-a -- 'sudo curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -'
-gcloud compute ssh $instanceName --zone europe-west4-a -- 'sudo apt install -y nodejs'
 
 # install docker engine
 gcloud compute ssh $instanceName --zone europe-west4-a -- 'sudo apt-get update'

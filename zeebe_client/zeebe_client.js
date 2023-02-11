@@ -9,7 +9,7 @@ void (async () => {
 
 // Process deploy and start instance
 void (async () => {
-    const zbc = new ZB.ZBClient('EXTERNAL_IP_ADD_ZEEBE_CLUSTER:26500') // localhost:26500 || ZEEBE_GATEWAY_ADDRESS
+    const zbc = new ZB.ZBClient('EXTERNAL_IP_ADD_ZEEBE_CLUSTER:26500')
 
     // Deploy a bpmn process
     const deploy_process = await zbc.deployProcess( '../processes/bug_reported.bpmn')

@@ -3,14 +3,14 @@ const fs = require("fs");
 
 // Broker
 void (async () => {
-    const zbc = new ZB.ZBClient('localhost:26500')
+    const zbc = new ZB.ZBClient('EXTERNAL_IP_ADD_ZEEBE_CLUSTER:26500\'')
     const topology = await zbc.topology()
     console.log(JSON.stringify(topology, null, 2))
 })()
 
 // Process deploy and start instance
 void (async () => {
-    const zbc = new ZB.ZBClient() // localhost:26500 || ZEEBE_GATEWAY_ADDRESS
+    const zbc = new ZB.ZBClient('EXTERNAL_IP_ADD_ZEEBE_CLUSTER:26500')
 
     // Deploy a bpmn process
     const deploy_process = await zbc.deployProcess('../processes/online_ticket_purchase.bpmn')
